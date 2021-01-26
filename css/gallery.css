@@ -1,0 +1,172 @@
+/* contact-page css */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* main-background */
+  .background img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  /*END main-background */
+  
+  .navbar-expand-lg {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    background-color: #281a42;
+  }
+  .navbar-expand-lg .login .nav-item .nav-link {
+    border: 1.5px solid #fafafa;
+    color: #fafafa;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+  .navbar-expand-lg .login .nav-item .log-up {
+    border: 1.5px solid#fafafa;
+    color: #fafafa;
+  }
+  .navbar-expand-lg .login .nav-item .nav-link:hover {
+    color: #281a42;
+    background-color: #fafafa;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .navbar-expand-lg .login .nav-item .log-up:hover {
+    color: #281a42;
+    background-color: #fafafa;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .navbar-expand-lg .login .nav-item .nav-link:focus {
+    color: #ffffff;
+    background-color: #281a42;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .navbar-expand-lg .login .nav-item .log-up:focus {
+    color: #ffffff;
+    background-color: #281a42;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .navbar-expand-lg .login .nav-item .nav-link {
+      background: transparent;
+      color: #a39dae;
+      border: none;
+    }
+    .navbar-expand-lg .login .nav-item .nav-link:hover {
+      background: transparent;
+      color: #d1ced6;
+      border: none;
+    }
+    .navbar-expand-lg .login .nav-item .nav-link:focus {
+      background: transparent;
+      color: #d1ced6;
+      box-shadow: none;
+      border: none;
+    }
+  }
+  
+
+/* feedback-area */
+.cardx
+{
+  background: rgba( 255, 255, 255, 0.60 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14.5px );
+  -webkit-backdrop-filter: blur( 14.5px );
+  border-radius: 10px;
+}
+.circle
+{
+    width: 60px;
+    height: 60px;
+}
+.fa-user-tie
+{
+    font-size: 40px;
+    color: #281a42;
+}
+/* feed-back background */
+.feed-background
+{
+  position: absolute;
+}
+.feed-background .circle-red
+{
+  position: absolute;
+  background-color:#c50039 ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.feed-background .circle-yellow
+{
+  position: relative;
+  background-color:#edb60b ;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 450px;
+  left: 10em;
+
+}
+@media only screen and (min-width: 768px) 
+{
+  .feed-background .circle-yellow
+  {
+    top: 280px;
+    left: 30em;
+  }
+}
+@media only screen and (min-width: 992px) 
+{
+  .feed-background .circle-yellow
+  {
+    top: 150px;
+    left: 40em;
+  }
+}
+
+/* END feed-back background */
+
+
+/* END feedback-area */
+  
+/* END -page css */
+  
